@@ -1,6 +1,7 @@
 # Weather-Prediction
 
 **Machine Learning Models Used**
+
 **1.Decision Tree Regressor**
 A simple tree-based model that splits the data into branches based on feature thresholds. It is easy to interpret and performs well on small to medium datasets. However, it can overfit if not pruned or tuned properly.
 
