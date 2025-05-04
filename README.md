@@ -17,6 +17,24 @@ An optimized gradient boosting technique that builds trees sequentially to minim
 **5.LSTM (Long Short-Term Memory)**
 A type of Recurrent Neural Network (RNN) designed for time series data. LSTM can learn long-term dependencies and patterns in sequential weather data, making it ideal for temperature forecasting over time.
 
+Dataset used: I have taken dataset from NOAA(National Oceanic and Atmospheric Administration) and the dataset is from January 1,2015 to January 31,2025.
+Dataset Source: dataset is taken from NOAA (National Oceanic and Atmospheric
+Administration’s)
+• The dataset has 3684 rows and 13 columns.
+
+• contains range from January 1,2015 to January 31,2025.
+
+• https://www.ncdc.noaa.gov/cdo-web/search
+
+• Features of Dataset:
+1. prcp: Precipitation amount recorded for the day.
+2. snow: Snowfall amount recorded for the day in inches.
+3. snwd: Snow depth in inches.
+4. tmax: Maximum temperature of the day in Faraheint.
+5. tmin: Minimum temperature of the day in Faraheint.
+6. temp-mean=average of max temperature and min temperature
+7. target: Maximum temperature of the next day (used as the prediction target)
+   
 **Steps to be performed:**
 1.  Dataset: Used historical weather data from ten_year_data.csv.Data covers the range from January 1, 2015 to January 31, 2025.
 2.  Data Preprocessing:
