@@ -35,7 +35,9 @@ Additional targets (if used): TMAX, TMIN.
 
 **How to run:**
 1.Place ten_year_data.csv in the same directory as the notebook.
-2.Open the Jupyter Notebook:weather_prediction.ipynb
+
+2.Open the Jupyter Notebook:weather_prediction_minor_project.ipynb
+
 3.Install dependencies:
 pip install pandas numpy matplotlib seaborn scikit-learn xgboost tensorflow statsmodels
 
